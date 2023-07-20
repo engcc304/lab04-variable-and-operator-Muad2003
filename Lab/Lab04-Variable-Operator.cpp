@@ -27,14 +27,14 @@
 */
 #include <stdio.h>
 int main(){
-    int Employees_Id[10] ;
+    char Employees_Id[10] ;
     int  working_hr ;
     int Salary_amount_hr ;
-    printf( "Enter Your Id: " ) ; 
-    scanf( "%d", Employees_Id ) ;
-    printf( "Enter Your Hr: ") ;
+    printf( "Enter Your Id : \n" ) ; 
+    scanf( "%s", Employees_Id ) ;
+    printf( "Enter Your Hr:  : \n" ) ;
     scanf( "%d", working_hr) ;
-    printf( " Enter Your Salary" ) ;
+    printf( " Enter Your Salary : \n" ) ;
     scanf( "%d", Salary_amount_hr ) ;
     printf( "You Employees Id =", Employees_Id ) ;
     printf ( "Your Salary is",working_hr * Salary_amount_hr ) ;
