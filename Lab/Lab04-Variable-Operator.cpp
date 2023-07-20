@@ -35,9 +35,10 @@ int main(){
     scanf( "%s", EmployeesID ) ;
     printf( "Enter Your Hr:  : \n" ) ;
     scanf( "%d", working_hr) ;
-    Salary = working_hr * Salary_amount_hr ;
     printf( " Enter Your Salary : \n" ) ;
     scanf( "%d", Salary_amount_hr ) ;
+
+    Salary = working_hr * Salary_amount_hr ;
     printf( "You Employees Id =", EmployeesID ) ;
     printf ( "Your Salary is",Salary ) ;
     return 0 ;
