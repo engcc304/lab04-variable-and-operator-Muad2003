@@ -44,6 +44,6 @@ int main(){
     printf("Expected Output:\n");
     printf("Employees ID =%s\n",EmployeesID) ;
     printf("Salary = U$ %0.2f\n",Salary) ;
-
+    
     return 0 ;
 }//end main function
