@@ -31,15 +31,16 @@ int main(){
     float  working_hr ;
     float Salary_amount_hr ;
     float Salary ;
+
     printf( "Enter Your Id : \n" ) ; 
     scanf( "%s", EmployeesID ) ;
     printf( "Enter Your Hr:  : \n" ) ;
-    scanf( "%d", working_hr) ;
+    scanf( "%f", working_hr) ;
     printf( " Enter Your Salary : \n" ) ;
-    scanf( "%d", Salary_amount_hr ) ;
+    scanf( "%f", Salary_amount_hr ) ;
 
     Salary = working_hr * Salary_amount_hr ;
-    printf( "You Employees Id =", EmployeesID ) ;
-    printf ( "Your Salary is",Salary ) ;
+    printf( "You Employees Id =%s\n", EmployeesID ) ;
+    printf ( "Your Salary isU$ %0.2f\n",Salary ) ;
     return 0 ;
 }//end main function
