@@ -32,16 +32,18 @@ int main(){
     float Salary_amount_hr ;
     float Salary ;
     printf( "Enter Your Id : \n" ) ; 
-    scanf( "%s", EmployeesID ) ;
+    scanf( "%s", &EmployeesID ) ;
+
     printf( "Enter Your Hr:  : \n" ) ;
-    scanf( "%f", working_hr) ;
+    scanf( "%f", &working_hr) ;
+
     printf( " Enter Your Salary : \n" ) ;
-    scanf( "%f", Salary_amount_hr ) ;
+    scanf( "%f", &Salary_amount_hr ) ;
 
     Salary = Salary_amount_hr * working_hr ;
     printf("Expected Output:\n");
     printf("Employees ID = %s\n",EmployeesID) ;
-    printf("Salary = U$ %0.2f\n",Salary) ;
+    printf("Salary = U$ %f\n",Salary) ;
 
     return 0 ;
 }//end main function
