@@ -42,8 +42,8 @@ int main(){
 
     Salary = Salary_amount_hr * working_hr ;
     printf("Expected Output:\n");
-    printf("EmployeesID= %s\n",EmployeesID) ;
-    printf("Salary = U$ %f\n",Salary) ;
+    printf("Employees ID =%s\n",EmployeesID) ;
+    printf("Salary = U$ %0.2f\n",Salary) ;
 
     return 0 ;
 }//end main function
